@@ -14,15 +14,6 @@ function Student (name, email, classes, grades){
     this.grades = grades
 }
 
-Teacher.prototype = new Person();
-Teacher.prototype.inheritanceTest = Teacher;
-var teacherOne = new Teacher("Nancy Makar", "nancymakar@njit.edu", "English");
-
-Student.prototype = new Person();
-Student.prototype.inheritanceTest = Student;
-var studentOne = new Student("Tomas Pasie", "tomaspasie@gmail.com","English", "A");
-
-console.log(teacherOne instanceof Person);
-console.log(studentOne instanceof Person);
-console.log(teacherOne instanceof Student);
-console.log(studentOne instanceof Teacher);
+module.exports = Person;
+module.exports = Teacher;
+module.exports = Student;

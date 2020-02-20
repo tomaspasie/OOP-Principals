@@ -1,0 +1,15 @@
+{
+  "name": "principals",
+  "version": "1.0.0",
+  "description": "Tutorial",
+  "main": "Encapsulation.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Tomas Pasiecznik",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0"
+  }
+}

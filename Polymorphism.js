@@ -13,10 +13,4 @@ Rectangle.area = function(l,w){
     return (l*w);
 }
 
-new Triangle;
-new Circle;
-new Rectangle;
-
-console.log(Triangle.area(5,5));
-console.log(Circle.area(5));
-console.log(Rectangle.area(5,5));
+module.exports = Circle;

@@ -2,15 +2,13 @@ const Dog = function(name,breed){
     let n = name, b = breed;
 
     this.name = function(){
-        return console.log('The dog is named ' + n + '.');
+        return name;
     }
 
     this.breed = function(){
-        return console.log('The breed of the dog is ' + b + '.');
+        return breed;
     }
 
 }
 
-const firstDog = new Dog ('Zed',"English Bull Terrier");
-firstDog.name();
-firstDog.breed();
+module.exports = Dog;
