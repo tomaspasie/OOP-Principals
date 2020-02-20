@@ -1,5 +1,6 @@
 # OOP-Principals
 
+[![Build Status](https://travis-ci.com/tomaspasie/OOP-Principals.svg?branch=master)](https://travis-ci.com/tomaspasie/OOP-Principals)
 
 Individual Homework: Explain OOP principles using JavaScript
 
