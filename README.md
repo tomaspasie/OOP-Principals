@@ -12,4 +12,4 @@ Abstraction - Similar to encapsulation, when one would like to hide certain feat
 
 Inheiritance - When working with objects that have similarities, it may be useful to use in heritance to avoid repitition in code. In the example I created, we can see the realtionship between Teacher and Student. The teacher is an instance of Person and likewise, the Student is also an instance of Person. However, the student is not an instance of Teacher and the teacher is not an instance of Student. This shows us that they are two distinct groups of people despite both being instances of Person.
 
-Polymorphism - In polymorphism, methods of the same name/function call be called for object specific operations. In the example I created, each of the shapes call the area method but the operation that is carries out is shape specific.
+Polymorphism - In polymorphism, methods of the same name/function call be called for object specific operations. In the example I created, each of the shapes call the area method but the operation that is carried out is shape specific.
